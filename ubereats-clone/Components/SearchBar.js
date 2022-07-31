@@ -6,9 +6,10 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 
 export default function SearchBar() {
   return (
-    <View style={{ marginTop: 15, flexDirection: "row" }}>
+    <View style={{ marginTop: 15, flexDirection: "row",height:50 }}>
       <GooglePlacesAutocomplete
         placeholder="Search"
+        
         styles={{
           textInput: {
             backgroundColor: "#eee",
@@ -16,6 +17,7 @@ export default function SearchBar() {
             fontWeight: "700",
             marginTop: 7,
           },
+          
           textInputContainer: {
             backgroundColor: "#eee",
             borderRadius: 50,
